@@ -36,30 +36,6 @@ if(scores >= 80 && scores <= 100){
 
 console.log(grade);
 
-
-
-
-
-
-
-
-
-
-// for-of-loop
-
-// let str = "ApnaCollege";
-
-// for (let i of str){
-//     console.log(i);
-// }/
-
-
-
-
-
-
-
-
 for(let i = 0;i<=100;i++){
     if(i%2===0){
         console.log(i);
@@ -75,15 +51,6 @@ while(game != num){
     num = prompt("Guess right number : ");
 }
 console.log("you enter a right number : "+num);
-
-
-
-
-
-
-let str = "apnaCollage";
-let str1 = 'danny';
-
 
 
 
