@@ -144,20 +144,20 @@ const numVowel =(str) => {
 }
 
 
-const URL = "https://cat-fact.herokuapp.com/facts";
-const para = document.querySelector("#fact");
-const btn = document.querySelector("#mode")
+// const URL = "https://cat-fact.herokuapp.com/facts";
+// const para = document.querySelector("#fact");
+// const btn = document.querySelector("#mode")
 
-const getFacts = async () => {
-    console.log("getting data.....");
-    let response = await fetch(URL);
-    console.log(data);
-    let data = await response.json();
-    para.innerText = data[0].text;
-};
+// const getFacts = async () => {
+//     console.log("getting data.....");
+//     let response = await fetch(URL);
+//     console.log(data);
+//     let data = await response.json();
+//     para.innerText = data[0].text;
+// };
 
 
-btn.addEventListener("click", para);
+// btn.addEventListener("click", para);
 
 
 
