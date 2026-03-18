@@ -45,13 +45,13 @@ console.log(grade);
 
 
 
-for-of-loop
+// for-of-loop
 
-let str = "ApnaCollege";
+// let str = "ApnaCollege";
 
-for (let i of str){
-    console.log(i);
-}/
+// for (let i of str){
+//     console.log(i);
+// }/
 
 
 
