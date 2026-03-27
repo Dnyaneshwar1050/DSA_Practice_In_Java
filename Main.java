@@ -1,3 +1,5 @@
+import java.util.*;
+
 class outputClass {
     public static void main(String args[]) {
         System.out.println("*");
@@ -23,5 +25,17 @@ public class Main {
         int b = 2;
         int sum = a + b ;
         System.out.println(sum);
+    }
+}
+
+
+
+//input in java 
+
+class Input {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println(name);
     }
 }
