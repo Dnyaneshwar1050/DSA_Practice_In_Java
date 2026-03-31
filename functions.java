@@ -55,3 +55,26 @@ class functionQuestions2{
 
     }
 }
+
+// 3) find factorial of n numbers
+
+class findFactorial {
+
+    public static int calculatesFactorials(int n){
+        int factorial = 1;
+
+        for(int i=n; i>=1; i--){
+            factorial = factorial * i;
+        }
+        return factorial;
+    }
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int factorial = calculatesFactorials(n);
+
+        System.out.println(factorial);
+    }
+}
