@@ -148,3 +148,80 @@ class greaterWhose {
 
     }
 }
+
+
+//8)Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+
+
+
+class countsOfNumber {
+
+    public static void counts() {
+        Scanner sc = new Scanner(System.in);
+
+        int positive = 0;
+        int negative = 0;
+        int zeros = 0;
+        int input;
+
+        do {
+            System.out.print("Enter a number: ");
+            int num = sc.nextInt();
+
+            if (num > 0) {
+                positive++;
+            } else if (num < 0) {
+                negative++;
+            } else {
+                zeros++;
+            }
+
+            System.out.print("Press 1 to continue, 0 to stop: ");
+            input = sc.nextInt();
+
+        } while (input == 1);
+
+        System.out.println("Positive numbers: " + positive);
+        System.out.println("Negative numbers: " + negative);
+        System.out.println("Zeros: " + zeros);
+    }
+
+    public static void main(String args[]) {
+        counts();  // function call
+    }
+}
+
+//or
+
+
+
+class Solutions {
+   public static void main(String args[]) {
+       int positive = 0, negative = 0, zeros = 0;
+       System.out.println("Press 1 to continue & 0 to stop");
+       Scanner sc = new Scanner(System.in);
+       int input = sc.nextInt();
+
+
+       while(input == 1) {
+           System.out.println("Enter your number : ");
+           int number = sc.nextInt();
+           if(number > 0) {
+               positive++;
+           } else if(number < 0) {
+               negative++;
+           } else {
+               zeros++;
+           }
+
+
+           System.out.println("Press 1 to continue & 0 to stop");
+           input = sc.nextInt();
+       }
+
+
+       System.out.println("Positives : "+ positive);
+       System.out.println("Negatives : "+ negative);
+       System.out.println("Zeros : "+ zeros);
+   }   
+}
