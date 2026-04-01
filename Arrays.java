@@ -16,6 +16,7 @@
 
 //using loop
 
+import java.util.Scanner;
 
 public class Arrays {
 
@@ -31,6 +32,47 @@ public class Arrays {
         }
     }
 }
+ 
+// second type of writing arrys 
 
+class Arrays2 {
+
+    public static void main(String args[]){
+        // int[] marks = new int[3];
+        int marks[] = {95, 96, 97};
+
+        for(int i=0; i<3; i++){
+            System.out.println(marks[i]);
+        }
+    }
+}
+
+
+// practise question
+
+class questions {
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int numbers[] = new int[size];
+
+        //input
+        for (int i=0; i<size; i++){
+            numbers[i] = sc.nextInt(); 
+        }
+
+        System.out.println("enter x : ");
+
+        int x = sc.nextInt();
+
+        //output
+        for(int i=0; i<numbers.length; i++){
+            if(numbers[i] == x){
+                System.out.println(i);
+            }
+        }
+    }
+}
 
 
