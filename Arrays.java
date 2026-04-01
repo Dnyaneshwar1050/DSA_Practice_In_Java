@@ -76,3 +76,27 @@ class questions {
 }
 
 
+
+
+//Take an array of names as input from the user and print them on the screen.
+
+class question{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+
+        int num = sc.nextInt();
+        String names[] = new String[num];
+
+        for(int i=0; i<num; i++){
+            names[i] = sc.next();
+        }
+
+        for(int i=0; i<num; i++){
+            System.out.println(names[i]);
+        }
+
+
+    }
+}
+
+
