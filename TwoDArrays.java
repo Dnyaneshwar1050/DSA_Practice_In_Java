@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class TwoDArrays {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
 
         int row = sc.nextInt();
@@ -34,7 +34,7 @@ public class TwoDArrays {
 
 
 class TwoDArray {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
 
         int row = sc.nextInt();
@@ -74,7 +74,7 @@ class TwoDArray {
 
 
 class question01{
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m =sc.nextInt();
@@ -129,7 +129,7 @@ class question01{
 
 
 class Arrays1 {
-   public static void main(String args[]) {
+   public static void main(Strings args[]) {
       Scanner sc = new Scanner(System.in);
       int n = sc.nextInt();
       int m = sc.nextInt();
@@ -187,7 +187,7 @@ class Arrays1 {
 // For a given matrix of N x M, print its transpose
 
 class transposeMatrix{
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();

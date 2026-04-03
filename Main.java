@@ -1,7 +1,7 @@
 import java.util.*;
 
 class outputClass {
-    public static void main(String args[]) {
+    public static void main(Strings args[]) {
         System.out.println("*");
         System.out.println("* *");
         System.out.println("* * *");
@@ -12,7 +12,7 @@ class outputClass {
 // or
 
 class output1Class {
-    public static void main(String args[]) {
+    public static void main(Strings args[]) {
         System.out.print("* \n* *\n* * *\n* * * *");
     }
 }
@@ -20,7 +20,7 @@ class output1Class {
 // veraibles
 
 public class Main {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         int a = 1;
         int b = 2;
         int sum = a + b ;
@@ -33,9 +33,9 @@ public class Main {
 //input in java 
 
 class Input {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
-        String name = sc.next();
+        Strings name = sc.next();
         System.out.println(name);
     }
 }
@@ -44,7 +44,7 @@ class Input {
 // question for practice 
 
 class Question {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -58,7 +58,7 @@ class Question {
 
 
 class radiusOfCircle {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int radius = sc.nextInt();
         double pi = 3.14;
@@ -71,7 +71,7 @@ class radiusOfCircle {
 //Make a program that prints the table of a number that is input by the user. 
 
 class tables {
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         System.out.println(a*1);

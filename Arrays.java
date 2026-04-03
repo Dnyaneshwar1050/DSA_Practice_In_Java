@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 public class Arrays {
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         // int[] marks = new int[3];
         int marks[] = new int[3]; // also valid syntax
         marks[0] = 95;
@@ -37,7 +37,7 @@ public class Arrays {
 
 class Arrays2 {
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         // int[] marks = new int[3];
         int marks[] = {95, 96, 97};
 
@@ -52,7 +52,7 @@ class Arrays2 {
 
 class questions {
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int numbers[] = new int[size];
@@ -81,11 +81,11 @@ class questions {
 //Take an array of names as input from the user and print them on the screen.
 
 class question{
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
-        String names[] = new String[num];
+        Strings names[] = new Strings[num];
 
         for(int i=0; i<num; i++){
             names[i] = sc.next();

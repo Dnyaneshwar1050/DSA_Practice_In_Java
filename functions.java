@@ -1,14 +1,14 @@
 import java.util.*;
 
 public class functions {
-    public static void printMyName(String name){
+    public static void printMyName(Strings name){
         System.out.println(name);
         return;
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
     Scanner sc = new Scanner(System.in);
-    String name = sc.nextLine();
+    Strings name = sc.nextLine();
     
     printMyName(name); // call kiya function ko 
 }
@@ -27,7 +27,7 @@ class functionQuestions{
         return sum;
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -46,7 +46,7 @@ class functionQuestions2{
         return;
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -69,7 +69,7 @@ class findFactorial {
         return factorial;
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
@@ -88,7 +88,7 @@ class average {
         double average = (a+b+c)/3.0;
         return average;
     }
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -114,7 +114,7 @@ class sumOfOddNumber1{
         return sum;
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
@@ -139,7 +139,7 @@ class greaterWhose {
         
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -186,7 +186,7 @@ class countsOfNumber {
         System.out.println("Zeros: " + zeros);
     }
 
-    public static void main(String args[]) {
+    public static void main(Strings args[]) {
         counts();  // function call
     }
 }
@@ -196,7 +196,7 @@ class countsOfNumber {
 
 
 class Solutions {
-   public static void main(String args[]) {
+   public static void main(Strings args[]) {
        int positive = 0, negative = 0, zeros = 0;
        System.out.println("Press 1 to continue & 0 to stop");
        Scanner sc = new Scanner(System.in);
