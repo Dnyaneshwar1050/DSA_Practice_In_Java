@@ -86,3 +86,25 @@ class Recursion3{
         printFibonacci(0, 1, n-2);
     }
 }
+
+
+
+//print x^n
+
+class Recursion4{
+
+    public static void xTothePower(int x, int n, int power){
+        if(n == 1){
+             power*=x;
+            System.out.println(power);
+            return;
+        }
+         power*=x;
+         xTothePower(x, n-1, power);
+    }
+
+
+    public static void main(String args[]){
+        xTothePower(2, 4, 1);
+    }
+}
