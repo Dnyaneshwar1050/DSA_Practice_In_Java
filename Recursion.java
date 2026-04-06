@@ -38,3 +38,25 @@ class Recursion1{
         sumOfNNaturalNo(1, 5, 0);
     }
 }
+
+//print factorial of n using recursion
+
+class Recursion2{
+
+    public static int factorialOfN(int n){
+
+        if(n == 1 || n == 0){
+            return 1;
+        }
+
+        int factorial_of_nm1 = factorialOfN(n-1);
+        System.out.println(factorial_of_nm1);
+        int factorial_of_n = n*factorial_of_nm1;
+        return factorial_of_n;
+    }
+    public static void main(String args[]){
+        int factorail_ans = factorialOfN(5);
+        System.out.println(factorail_ans);
+    }
+}
+
