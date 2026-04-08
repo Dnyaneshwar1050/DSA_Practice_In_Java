@@ -68,3 +68,32 @@ System.out.println("Last occurence : " + last);
 }
 }
 
+
+//Q4. Check if an array is sorted (strictly increasing).
+
+class MidRecursion3{
+
+    public static boolean isIncreasing(int arr[], int idx){
+
+        if(idx == arr.length-1){
+            return true;
+        }
+
+        if(arr[idx] < arr[idx+1]){
+           return isIncreasing(arr, idx+1);
+        }else{
+            return false;
+        }
+    }
+
+    public static void main(String args[]){
+        int arr[] = {1,2,3,4};
+        if(isIncreasing(arr, 0) == true){
+            System.out.println("this array is sorted");
+        }else{
+            System.out.println("this array is not sorted");
+        }
+
+    }
+}
+
