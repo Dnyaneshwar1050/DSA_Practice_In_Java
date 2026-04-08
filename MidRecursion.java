@@ -97,3 +97,32 @@ class MidRecursion3{
     }
 }
 
+
+//Q5. Move all ‘x’ to the end of the string. - O(n)
+
+
+class MidRecursion4{
+     public static void moveAllXToEnd(String str, int idx, int count, String NewStr){
+
+        if(idx == str.length()){
+            for(int i= 0; i<count; i++){
+                NewStr += 'x';
+            }
+            System.out.print(NewStr);
+            return;
+        }
+
+        char currchar = str.charAt(idx);
+
+        if(currchar == 'x'){
+            moveAllXToEnd(str, idx+1, count+1, NewStr);
+        }else{
+            NewStr += currchar;
+            moveAllXToEnd(str, idx+1, count, NewStr);
+        }
+     }
+     public static void main(String args[]){
+        String str = "axbcxxd";
+        moveAllXToEnd(str, 0, 0, "");
+     }
+}
